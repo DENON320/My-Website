@@ -1,6 +1,28 @@
 
 /* CSS Reset */
 
+/* Mobile first approach */
+body {
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* Tablet and larger */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+    padding: 20px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  body {
+    font-size: 20px;
+    padding: 40px;
+  }
+}
+
 .website-body {
    margin: 0;
    padding: 0;
